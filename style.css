@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+    :root{
+
+        --h1: 50px;
+        --h2: 40px;
+        --h3: 30px;
+        --h4: 28px;
+        --h5: 24px;
+        --h6: 20px;
+
+        --sub: 20px;
+
+        --label: 16px;
+        --ls: 5px;
+
+        --body: 14px;
+
+        --color-dark-100: rgba(58, 58, 58, 1);
+        --color-dark-75: rgba(58, 58, 58, .75);
+        --color-dark-50: rgba(58, 58, 58, .5);
+        --color-dark-25: rgba(58, 58, 58, .25);
+
+        --color-pink-100: rgba(224, 44, 109, 1);
+        --color-pink-75: rgba(224, 44, 109, .75);
+
+        --font-weight-bolder: 700;
+        --font-weight-semi-bold: 600;
+        --font-weight-bold: 500;
+        --font-weight-normal:400;
+
+    }
+
+
+    /* ! header style start */
+    header{
+        border: solid;
+
+        padding: 0 100px;
+    }
+
+
+    /* ! Nav style start */
+   
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 0px;
+    }
+
+
+
+    .nav-menus ul{
+        display: flex;
+        gap: 25px;
+    }
+    .nav-menus li{
+        list-style: none;
+        font-weight: var(--font-weight-semi-bold);
+    }
+
+
+    /* ! Header banner styles */
+
+
+
+    .banner{
+        display: flex;
+
+    }
+
+    .text-area-title{
+        font-size: var(--h1);
+        font-weight: var(--font-weight-bolder);
+        color: var(--color-dark-100);
+    }
+
+    .text-area-pera{
+        color: var(--color-dark-100);
+    }
