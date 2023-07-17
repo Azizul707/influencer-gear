@@ -43,7 +43,6 @@
     /* ! header style start */
     header{
         border: solid;
-
         padding: 0 100px;
     }
 
@@ -69,12 +68,15 @@
     }
 
 
-    /* ! Header banner styles */
 
+
+    /* ! Header banner styles */
 
 
     .banner{
         display: flex;
+        justify-content: space-around;
+        align-items: center;
 
     }
 
@@ -86,4 +88,24 @@
 
     .text-area-pera{
         color: var(--color-dark-100);
+    }
+
+    .btn{
+
+        background-color: var(--color-pink-100);
+        margin-top: 10px;
+        border: none;
+        border-radius: 8px;
+        padding: 8px 20px;
+        color: #fff;
+
+    }
+    .banner-image-area{
+        background-image: url('images/Circle-design.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .banner-image-area img{
+        width: 100%;
     }
