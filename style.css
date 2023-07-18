@@ -42,7 +42,6 @@
 
     /* ! header style start */
     header{
-        border: solid;
         padding: 0 100px;
     }
 
@@ -108,4 +107,163 @@
     }
     .banner-image-area img{
         width: 100%;
+    }
+    main{
+        padding: 40px 230px;
+    }
+    .sponsor-section{
+        padding: 30px 0px;
+        display: flex;
+        justify-content: space-evenly;
+        border-radius: 5px;
+        background: #FFF;
+        box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    }
+    .sponsor-section img{
+        padding: 5px;
+    }
+
+    /* ! Popular items sections start */
+
+
+    .cards-container{
+        padding: 20px 0px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-items: center;
+        gap: 15px;
+    }
+
+    .popular-item{
+        padding: 40px 0px;
+    }
+
+    .popular-item-title{
+        text-align: center;
+        font-weight: var(--font-weight-semi-bold);
+        font-size: var(--h5);
+        color: var(--color-dark-75);
+    }
+
+    .card{
+        padding: 10px;
+        max-width: 329px;
+        max-height: 476px;
+        border-radius: 5px;
+        background: #FFF;
+        box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    }
+    .card img{
+        width: 100%;
+    }
+
+    .card-item-title{
+        font-size: var(--h5);
+        font-weight: var(--font-weight-semi-bold);
+        
+    }
+
+    .card-price-title{
+        padding: 5px 0px;
+        font-size: var(--h6);
+
+    }
+    .card-pera{
+        padding: 4px 0px;
+        color: var(--color-dark-75);
+    }
+    .see-more-tag{
+        text-align: right;
+        color: var(--color-pink-100);
+    }
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 576px) {
+        header{
+            padding: 0px 10px;
+
+        }
+        .nav{
+            flex-direction: column;
+            align-items: center;
+        }
+        .banner{
+            flex-direction: column-reverse;
+        }
+
+        .banner-text-area{
+            text-align: center;
+        }
+
+
+
+        /* ! main section start here */
+
+
+        main{
+            padding: 20px 40px;
+        }
+
+        .sponsor-section{
+
+            flex-wrap: wrap;
+        }
+
+        .cards-container{
+            grid-template-columns: 1fr;
+            justify-content: center;
+            
+
+        }
+        .card img{
+            overflow: hidden;
+            
+        }
+
+
+    }
+
+
+    @media screen and (min-width:576px) and (max-width: 922px) {
+
+        header{
+            padding: 0px 10px;
+
+        }
+        .nav{
+            flex-direction: column;
+            align-items: center;
+        }
+        .banner{
+            flex-direction: column-reverse;
+        }
+        .banner-text-area{
+            text-align: center;
+        }
+
+
+        /* ? main section start here */
+
+
+        main{
+            padding: 20px 40px;
+        }
+
+        .sponsor-section{
+        
+            flex-wrap: wrap;
+        
+        }
+
+
+        
     }
