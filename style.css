@@ -179,6 +179,33 @@
 
 
 
+    /* ! Lst section features styles here */
+
+    .features-container{
+        border: solid;
+        padding: 10px;
+        display: flex;
+        gap: 60px;
+    }
+    .features-container img{
+        width: 100%;
+    }
+
+    .feature-text-title{
+        color: #0A0826;
+        font-size: var(--h3);
+        font-weight: 700;
+
+    }
+    .feature-txt-peara{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+
+
+
+
 
 
 
@@ -227,6 +254,17 @@
         .card img{
             overflow: hidden;
             
+        }
+
+
+        /* ! Last features section start here */
+
+        .features-container{
+            flex-direction: column-reverse;
+        }
+
+        .feature-text{
+            text-align: center;
         }
 
 
