@@ -182,8 +182,7 @@
     /* ! Lst section features styles here */
 
     .features-container{
-        border: solid;
-        padding: 10px;
+        padding: 50px 0px;
         display: flex;
         gap: 60px;
     }
@@ -201,6 +200,22 @@
         font-size: 16px;
         font-weight: 700;
         line-height: 28px;
+    }
+
+
+
+    /*! Footer styles start here */
+
+    .footer-container{
+        text-align: center;
+        padding: 50px;
+        background: #0A0826;
+        color: #FFF;
+    }
+
+    .icon-container i{
+        padding: 15px 8px;
+        
     }
 
 
